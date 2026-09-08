@@ -10,7 +10,7 @@ def exibir_colaboradores(lista_colaboradores: list) -> None:
         return
     print("\nLista de Colaboradores")
     for i, colaborador in enumerate(lista_colaboradores, start=1):
-        print(f"{i}. Nome: {colaborador['nome']}")
-        print(f"Cargo: {colaborador['cargo']}")
-        print(f"Salario: R$ {colaborador['salario']:.2f}")
+        print("{i}. Nome: {colaborador['nome']}")
+        print("Cargo: {colaborador['cargo']}")
+        print("Salario: R$ {colaborador['salario']:.2f}")
     print("\n")
