@@ -3,7 +3,7 @@ MAX_RETRIES = 5
 EXECUTION_TIMEOUT = 10
 IS_PRODUCTION = True
 
-print(f"Tipo BOT_NAME = ", type(BOT_NAME))
-print(f"Tipo MAX_RETRIES = ", type(MAX_RETRIES))
-print(f"Tipo EXECUTION_TIMEOUT = ", type(EXECUTION_TIMEOUT))
-print(f"Tipo IS)PRODUCTION = ", type(IS_PRODUCTION))
+print("Tipo BOT_NAME = ", type(BOT_NAME))
+print("Tipo MAX_RETRIES = ", type(MAX_RETRIES))
+print("Tipo EXECUTION_TIMEOUT = ", type(EXECUTION_TIMEOUT))
+print("Tipo IS_PRODUCTION = ", type(IS_PRODUCTION))
