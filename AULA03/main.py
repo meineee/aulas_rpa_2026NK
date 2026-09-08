@@ -21,7 +21,7 @@ while True:
                 print("Valor inválido. Digite um número (ex: 3500.00).")
         colaborador = cadastrar_colaborador(nome, cargo, salario)
         colaboradores.append(colaborador)
-        print(f"Colaborador '{nome}' cadastrado com sucesso!")
+        print("Colaborador '{nome}' cadastrado com sucesso!")
 
     elif opcao == "2":
         exibir_colaboradores(colaboradores)
